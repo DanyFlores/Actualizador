@@ -11,7 +11,6 @@ Una vez hecho esto y recompilando ambos programas, el proceso que debe ser inici
 Se encarga de llamar a **MasterProcess.exe** (el cual simula ser el programa principal *o aquel que pretende ser actualizado*). Para llegar a esto, *UpdateProcess* valida si hay una nueva versión de los archivos disponible (consultando nuevos directorios en la ruta de actualización), y posteriormente pregunta si se desea actualizar o no. 
 
 *En caso de aceptar: El programa actualiza los archivos a su versión más reciente disponible, y posteriormente reinicia el proceso principal (*MasterProcess*)
-
 *En caso de rechazar: El programa simplemente lanza el proceso principal (*MasterProcess*).
 
 ## MasterProcess
@@ -20,6 +19,5 @@ Este programa es meramente un simulador (sus archivos no se actualizan, pues no 
 
 *En línea de comandos (CMD): 
   *```Batch UpdateProcess.exe rollback```
-
 *En VB (VB.NET):
   *```VB .NET Process.Start("UpdateProcess.exe", "rollback")```
