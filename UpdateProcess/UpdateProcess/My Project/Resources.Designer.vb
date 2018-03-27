@@ -61,7 +61,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Busca una cadena traducida similar a .
+        '''  Busca una cadena traducida similar a SetupSACU180326.
         '''</summary>
         Friend ReadOnly Property LastDirRequested() As String
             Get

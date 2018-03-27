@@ -5,10 +5,12 @@ Imports System.Text
 Imports System.Diagnostics
 Imports System.Threading
 Imports System.Media
+Imports Microsoft.VisualBasic.FileIO
+
 Public Class UpdateForm
 
     Dim lastRequestedDir As String
-    Dim localDir As String = "C:\\Users\\ad.flores\\Documents\\localDir"
+    Dim localDir As String = SpecialDirectories.ProgramFiles + "\\JMA\\SAC"
     Public serverDir As String
     Dim restartCounter As Integer
 
@@ -21,8 +23,8 @@ Public Class UpdateForm
         updateProgress.Minimum = 0 'Inicio
         updateProgress.Maximum = updateFiles.Length 'Fin
         'Ciclo encargado de reemplazar los archivos del directorio local con los del directorio de actualización
-        For Each f As String In updateFiles
-            Dim fi As FileInfo = New FileInfo(f)
+        For Each updateFile As String In updateFiles
+            Dim fi As FileInfo = New FileInfo(updateFile)
             txtInfoContainer.Text += "Moviendo el archivo " + fi.Name + " (" + fi.FullName + ") -> " + localDir + "\" + fi.Name & vbNewLine
             Try
                 For Each fileName As String In localFiles

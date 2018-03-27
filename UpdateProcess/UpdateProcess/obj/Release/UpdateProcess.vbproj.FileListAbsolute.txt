@@ -18,3 +18,6 @@ C:\Users\ad.flores\Documents\Visual Studio 2008\Projects\UpdateProcess\UpdatePro
 C:\Users\ad.flores\Documents\Visual Studio 2008\Projects\UpdateProcess\UpdateProcess\bin\Release\UpdateProcess.exe
 C:\Users\ad.flores\Documents\Visual Studio 2008\Projects\UpdateProcess\UpdateProcess\bin\Release\UpdateProcess.pdb
 C:\Users\ad.flores\Documents\Visual Studio 2008\Projects\UpdateProcess\UpdateProcess\bin\Release\UpdateProcess.xml
+C:\Users\ad.flores\Documents\Visual Studio 2008\Projects\UpdateProcess\UpdateProcess\bin\Release\UpdateProcess.exe.config
+C:\Users\ad.flores\Documents\Visual Studio 2008\Projects\UpdateProcess\UpdateProcess\obj\Release\UpdateProcess.frmRollback.resources
+C:\Users\ad.flores\Documents\Visual Studio 2008\Projects\UpdateProcess\UpdateProcess\obj\Release\UpdateProcess.UpdateForm.resources

@@ -101,6 +101,7 @@
     <Compile Include="UpdateForm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="UpdateHelper.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
